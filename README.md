@@ -1,19 +1,19 @@
 # wepp - a node based LESS/CSS and JavaScript Preprocessor
 
-* Website with download, docs and demo: <http://larsjung.de/wepp>
-* Sources: <http://github.com/lrsjng/wepp>
+* to report a bug or make a feature request please create [a new issue](http://github.com/lrsjng/wepp/issues/new) on GitHub
+* website: <http://larsjung.de/wepp>
+* sources: <http://github.com/lrsjng/wepp>
+* npm <https://npmjs.org/package/wepp>
 
 wepp is provided under the terms of the [MIT License](http://github.com/lrsjng/wepp/blob/master/LICENSE.txt).  
-It comes with a node moduled version of YUI CSS compressor which is licensed under the terms
-of the [BSD License](http://github.com/lrsjng/wepp/blob/master/src/wepp/lib/cssmin.js).
 
 
 ## Changelog
 
+### v0.5.0 - *2012-08-??*
 
-### v0.5.0 - *2012-02-??*
-
-* adds optional output of zipped size of processed files
+* now based on [fQuery](http://larsjung.de/fquery/)
+* some changes in command line interface! (see `wepp -h`)
 
 
 ### v0.4.0 - *2012-02-01*

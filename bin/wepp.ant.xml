@@ -15,7 +15,7 @@
 		<attribute name="file" />
 		<attribute name="tofile" />
 		<sequential>
-			<wepp-args args="--nc --inFile '@{file}' --outFile '@{toFile}'" />
+			<wepp-args args="--no-compression --inFile '@{file}' --outFile '@{toFile}'" />
 		</sequential>
 	</macrodef>
 
@@ -31,7 +31,7 @@
 		<attribute name="dir" />
 		<attribute name="todir" />
 		<sequential>
-			<wepp-args args="--nc --inDir '@{dir}' --outDir '@{todir}'" />
+			<wepp-args args="--no-compression --inDir '@{dir}' --outDir '@{todir}'" />
 		</sequential>
 	</macrodef>
 
