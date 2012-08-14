@@ -1,20 +1,4 @@
 
-# Build files and folders to ignore
-build
-release
-build.local.*
-
-# Sublime
+node_modules
 *.sublime-*
-
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.vi
-*~
-*.sass-cache
+local
