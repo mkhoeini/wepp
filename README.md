@@ -10,7 +10,7 @@ wepp is provided under the terms of the [MIT License](http://github.com/lrsjng/w
 
 ## Changelog
 
-### v0.5.0 - *2012-08-??*
+### v0.5.0 - *2012-08-14*
 
 * now based on [fQuery](http://larsjung.de/fquery/)
 * some changes in command line interface! (see `wepp -h`)
