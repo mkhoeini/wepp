@@ -1,7 +1,7 @@
 {
   "name": "wepp",
   "displayName": "wepp",
-  "version": "0.6.0-dev-1",
+  "version": "0.5.1",
   "description": "a node based LESS/CSS and JavaScript Preprocessor",
   "url": "http://larsjung.de/wepp",
   "keywords": [
