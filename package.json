@@ -20,7 +20,7 @@
   },
   "main": "./lib/wepp",
   "bin": {
-    "makejs": "./bin/wepp"
+    "wepp": "./bin/wepp"
   },
   "dependencies": {
     "fquery": "~0.6.0",
