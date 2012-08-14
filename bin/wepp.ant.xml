@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="wepp.macros" basedir=".">
+
+
+	<macrodef name="wepp-args">
+		<attribute name="args" default="" />
+		<sequential>
+			<exec executable="${tool.wepp}" failonerror="true">
+				<arg line="@{args}" />
+			</exec>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="wepp">
+		<attribute name="file" />
+		<attribute name="tofile" />
+		<sequential>
+			<wepp-args args="--no-compression --inFile '@{file}' --outFile '@{toFile}'" />
+		</sequential>
+	</macrodef>
+
+	<macrodef name="wepp-min">
+		<attribute name="file" />
+		<attribute name="tofile" />
+		<sequential>
+			<wepp-args args="--inFile '@{file}' --outFile '@{toFile}'" />
+		</sequential>
+	</macrodef>
+
+	<macrodef name="wepp-dir">
+		<attribute name="dir" />
+		<attribute name="todir" />
+		<sequential>
+			<wepp-args args="--no-compression --inDir '@{dir}' --outDir '@{todir}'" />
+		</sequential>
+	</macrodef>
+
+	<macrodef name="wepp-dir-min">
+		<attribute name="dir" />
+		<attribute name="todir" />
+		<sequential>
+			<wepp-args args="--inDir '@{dir}' --outDir '@{todir}'" />
+		</sequential>
+	</macrodef>
+
+
+</project>
