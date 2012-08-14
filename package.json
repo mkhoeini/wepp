@@ -1,7 +1,7 @@
 {
   "name": "wepp",
   "displayName": "wepp",
-  "version": "0.5.0",
+  "version": "0.6.0-dev-1",
   "description": "a node based LESS/CSS and JavaScript Preprocessor",
   "url": "http://larsjung.de/wepp",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "main": "./lib/wepp",
   "bin": {
-    "makejs": "./bin/wepp"
+    "wepp": "./bin/wepp"
   },
   "dependencies": {
     "fquery": "~0.6.0",
