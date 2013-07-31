@@ -11,6 +11,11 @@ wepp is provided under the terms of the [MIT License](https://github.com/lrsjng/
 ## Changelog
 
 
+### develop branch
+
+* ...
+
+
 ### v0.6.0 - *2013-07-31*
 
 * only updates
