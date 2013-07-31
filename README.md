@@ -1,18 +1,23 @@
 # wepp - a node based LESS/CSS and JavaScript Preprocessor
 
-* to report a bug or make a feature request please create [a new issue](http://github.com/lrsjng/wepp/issues/new) on GitHub
-* website: <http://larsjung.de/wepp>
-* sources: <http://github.com/lrsjng/wepp>
+* to report a bug or make a feature request please create [a new issue](https://github.com/lrsjng/wepp/issues/new) on GitHub
+* website: <http://larsjung.de/wepp/>
+* sources: <https://github.com/lrsjng/wepp>
 * npm <https://npmjs.org/package/wepp>
 
-wepp is provided under the terms of the [MIT License](http://github.com/lrsjng/wepp/blob/master/LICENSE.txt).  
+wepp is provided under the terms of the [MIT License](https://github.com/lrsjng/wepp/blob/master/LICENSE.txt).
 
 
 ## Changelog
 
-### v0.6.0 - *2012-??-??*
 
-*
+### v0.6.0 - *2013-07-31*
+
+* only updates
+* updates `commander` to `~2.0.0`
+* updates `fquery` to `~0.9.0`
+* updates `gzip-js` to `~0.3.2`
+* updates `underscore` to `~1.5.1`
 
 
 ### v0.5.0 - *2012-08-14*
